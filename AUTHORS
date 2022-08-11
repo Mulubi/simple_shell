@@ -1,1 +1,4 @@
-git log --format='%aN <%aE>' | LC_ALL=C.UTF-8 sort -uf
+#THIS FILE CONTAINS A LIST OF ALL THE CONTRIBUTORS TO THIS SIMPLE SHELL PROJECT
+Warren Mulubi
+
+Derrick Maina
