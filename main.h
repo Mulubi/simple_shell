@@ -72,4 +72,7 @@ char *_strcpy(char *dest, char *src);
 int _strcmp(char *s1, char *s2);
 char *_strchr(char *s, char c);
 int _strspn(char *s, char *accept);
+
+char *new_strtok(char *str, const char *delim);
+
 #endif
