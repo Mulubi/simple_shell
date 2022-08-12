@@ -10,6 +10,7 @@
 #include <errno.h>
 #include <stddef.h>
 #include <sys/stat.h>
+#include <limits.h>
 #include <signal.h>
 
 int _putchar(char c);
@@ -63,5 +64,6 @@ void _unsetenv(char **arv);
 void freearv(char **arv);
 void free_list(list_path *head);
 
-
+void bring_line(char **lineptr, size_t *n, char *buffer, size_t j);
+ssize_t get_line(char **lineptr, size_t *n, FILE *stream);
 #endif
